@@ -1,0 +1,34 @@
+{
+  "name": "polygonid_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preet-jain/PolygonID_Auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preet-jain/PolygonID_Auth/issues"
+  },
+  "homepage": "https://github.com/preet-jain/PolygonID_Auth#readme",
+  "dependencies": {
+    "@iden3/js-iden3-auth": "^1.0.0-beta.13",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "mailazy-api": "^0.1.2",
+    "ngrok": "^5.0.0-beta.2",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
+  }
+}
